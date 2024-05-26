@@ -1,0 +1,65 @@
+{
+    "Ancient_Climate_Changes": {
+      "Ice_Ages": {
+        "description": "Earth has experienced several ice ages over the past 2.4 billion years. The most recent ice age, the Pleistocene Epoch, began about 2.6 million years ago and ended around 11,700 years ago. During ice ages, large parts of the Earth were covered with ice sheets, and global temperatures were significantly lower."
+      },
+      "Interglacial_Periods": {
+        "description": "These are warmer periods between ice ages where ice sheets retreat. The current interglacial period, the Holocene Epoch, began around 11,700 years ago and continues to the present day."
+      }
+    },
+    "Pre-Industrial_Climate_Variations": {
+      "Medieval_Warm_Period": {
+        "time_period": "950–1250 AD",
+        "description": "A period of relatively warm climate in the North Atlantic region. Allowed for the flourishing of Norse settlements in Greenland."
+      },    
+      "Little_Ice_Age": {
+        "time_period": "1300–1850 AD",
+        "description": "A period of cooling that followed the Medieval Warm Period. Characterized by colder winters and advancing glaciers in Europe and North America."
+      }
+    },
+    "The_Industrial_Revolution_and_Climate_Change": {
+      "Onset_of_the_Industrial_Revolution": {
+        "time_period": "late 18th century",
+        "description": "Marked the beginning of significant human impact on the climate. Widespread use of coal, oil, and natural gas increased atmospheric CO2 levels."
+      },
+      "Early_Observations": {
+        "year": 1896,
+        "scientist": "Svante Arrhenius",
+        "description": "In 1896, Swedish scientist Svante Arrhenius theorized that the burning of fossil fuels could lead to global warming by increasing CO2 levels. Early 20th-century scientists began to measure and observe a slight warming trend."
+      }
+    },
+    "20th_Century_Climate_Developments": {
+      "Mid-20th_Century_Awareness": {
+        "time_period": "mid-1900s",
+        "scientist": "Charles David Keeling",
+        "description": "By the mid-1900s, advancements in technology allowed for more accurate climate data collection. Researchers like Charles David Keeling began measuring atmospheric CO2 levels at Mauna Loa Observatory, showing a clear upward trend."
+      },
+      "Global_Warming_Emerges_as_a_Concern": {
+        "time_period": "1970s and 1980s",
+        "description": "In the 1970s and 1980s, scientific consensus began to build around the idea that human activities were contributing to global warming. Reports from organizations like the National Academy of Sciences and the United Nations raised public awareness."
+      }
+    },
+    "Late_20th_Century_to_Present": {
+      "Formation_of_the_IPCC": {
+        "year": 1988,
+        "description": "The Intergovernmental Panel on Climate Change (IPCC) was established to assess scientific information related to climate change. IPCC reports have been crucial in shaping international climate policy."
+      },
+      "Key_International_Agreements": {
+        "Earth_Summit_Rio_de_Janeiro": {
+          "year": 1992,
+          "description": "Led to the United Nations Framework Convention on Climate Change (UNFCCC)."
+        },
+        "Kyoto_Protocol": {
+          "year": 1997,
+          "description": "Set legally binding emission reduction targets for developed countries."
+        },
+        "Paris_Agreement": {
+          "year": 2015,
+          "description": "Aimed to limit global warming to well below 2°C above pre-industrial levels, with efforts to limit the increase to 1.5°C."
+        }
+      },
+      "Recent_Scientific_Developments": {
+        "description": "Enhanced climate models and satellite observations provide better predictions and understanding. Increased focus on the impacts of climate change, including extreme weather events, sea-level rise, and biodiversity loss."
+      }
+    }
+  }
