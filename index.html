@@ -1,1 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<style>
+</style>
+<body class="relative min-h-screen min-w-[320px] antialiased pb-2">
+    <main>
+        <button id="scrollTop" class="bg-green-500 fixed bottom-4 right-4 hidden bg-green-500 hover:bg-green-600 text-white rounded-full p-2">
+            <span class="hidden">back to top</span>
+            <i class="fas fa-arrow-up"></i>
+    </button>
+        <button id="information-btn" class="bg-green-500 z-40 fixed top-4 right-4  bg-green-500 hover:bg-green-600 text-white rounded-full p-2">
+            <span class=" w-60 p-8 text-start">
+                <img src="" alt="">
+                <h2>Escoton, Julius Michael</h2>
+                <p>BSIT - 2D</p>
+                <p>Teacher: Vienice Garcia</p>
+
+            </span>
+            <i class="fas fa-info-circle"></i>
+        </button>
+        
+        <section class="min-h-screen banner-section relative flex justify-center items-center">
+            <div class="banner-video absolute  w-full min-h-screen grayscale blur-[2px] brightness-75 z-10">
+                <video class="absolute w-full h-full object-cover" autoplay muted loop>
+                    <source src="./banner.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="container mx-auto px-4 py-12 text-center text-white z-20 max-w-[500px]">
+                <h1 class="banner-heading flex flex-col justify-left text-2xl font-bold mb-4" data-aos="fade-down">Welcome to <span class="text-green-500 text-5xl upe" data-aos="fade-right">ClimateWise</span></h1>
+                <p class="text-lg mb-6" data-aos="fade-up" data-aos-delay="1900">Your go-to source for comprehensive information on climate change.</p>
+                <a href="#about" class="inline-block px-6 py-3 bg-green-500 text-white rounded-lg shadow-lg hover:bg-green-100 hover:text-black transition duration-300" data-aos="fade-up" data-aos-delay="2000">Learn More</a>
+            </div>
+        </section>
+        
+        <section id="about" class="py-10 sm:py-20 min-h-screen flex items-center">
+            <div class="w-full max-w-[1000px] mx-auto flex flex-col gap-8 text-center sm:flex-row sm:text-start">
+        
+             <h2 class="about-heading relative text-8xl uppercase font-bold mb-5 sm:mb-0 text-center flex justify-center sm:text-6xl">
+                            <span class="text-[5.75rem]" data-aos="fade-right" data-aos-delay="100">A</span>
+                            <span class="text-[5.75rem]" data-aos="fade-right" data-aos-delay="200">B</span>
+                            <span class="text-[5.75rem]" data-aos="fade-right" data-aos-delay="300">O</span>
+                            <span class="text-[5.75rem]" data-aos="fade-right" data-aos-delay="400">U</span>
+                            <span class="text-[5.75rem]" data-aos="fade-right" data-aos-delay="500">T</span>
+                        </h2>
+
+        
+                <div class="flex flex-col gap-8 justify-center sm:justify-start">
+        
+                    <div class="text-left">
+                        <h3 class="text-3xl font-bold mb-2 sm:text-4xl"><span data-aos="fade-up" data-aos-delay="600">Welcome to</span> <span class="text-green-600" data-aos="fade-right" data-aos-delay="650">ClimateWise</span></h3>
+                        <p class="text-gray-700 text-lg sm:text-xl" data-aos="fade-up" data-aos-delay="700">Your concise climate change source. Mission: raise awareness, educate, inspire action. We're dedicated to a sustainable future.</p>
+                    </div>
+        
+                    <div class="text-left">
+                        <h3 class="text-3xl font-bold mb-2 sm:text-4xl" data-aos="fade-up" data-aos-delay="750">Mission</h3>
+                        <p class="text-gray-700 text-lg sm:text-xl" data-aos="fade-right" data-aos-delay="800">Empower with knowledge, foster stewardship, advocate for sustainability. Creating a resilient future for all.</p>
+                    </div>
+        
+                    <div class="text-left">
+                        <h3 class="text-3xl font-bold mb-2 sm:text-4xl" data-aos="fade-right" data-aos-delay="850">Goals</h3>
+                        <ul class="list-decimal text-gray-700 list-misc ml-10 text-lg sm:text-xl">
+                            <li class="mb-2" data-aos="fade-right" data-aos-delay="900">Raise Awareness: Educate on causes, effects, solutions.</li>
+                            <li class="mb-2" data-aos="fade-right" data-aos-delay="950">Inspire Action: Motivate lifestyle changes.</li>
+                            <li class="mb-2" data-aos="fade-right" data-aos-delay="1000">Advocate for Change: Support policies for conservation.</li>
+                            <li class="mb-2" data-aos="fade-right" data-aos-delay="1050">Foster Collaboration: Amplify impact through partnerships.</li>
+                            <li class="mb-2" data-aos="fade-right" data-aos-delay="1100">Promote Equity and Justice: Ensure inclusivity and fairness.</li>
+                            <li class="mb-2" data-aos="fade-right" data-aos-delay="1150">Measure and Adapt: Evaluate and adjust strategies for effectiveness.</li>
+                        </ul>
+                    </div>
+        
+                </div>
+            </div>
+        </section>
+    <section id="history" class="py-10 sm:py-20">
+        <div class="w-full max-w-[1000px] mx-auto flex flex-col gap-8 text-center sm:text-start">
+            <div class="flex flex-col items-center sm:flex-row gap-4">
+                <h2 class="text-4xl md:text-5xl uppercase font-bold mb-4 sm:mb-0" >History</h2>
+                <p class="text-base md:text-lg text-gray-700 leading-relaxed">Climate change has been a natural phenomenon throughout Earth's history. However, the rapid changes observed in recent centuries are largely due to human activities. Understanding the history of climate change helps contextualize current challenges and responses.</p>
+            </div>
+            <div class="history-timeline grid  grid-cols-2 gap-4 md:gap-9 relative">
+            </div>
+        </div>
+    </section>
+       
+        <section id="impact" class="py-12">
+            <div class="max-w-4xl mx-auto px-4">
+                <h3 class="text-3xl font-semibold mb-8">Impacts of Climate Change</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="border rounded-lg p-6" data-aos="fade-up" data-aos-delay="100">
+                        <h4 class="text-xl font-semibold mb-4">Environmental Impacts</h4>
+                        <ul>
+                            <li class="mb-8" data-aos="fade-up" data-aos-delay="200">
+                                <img src="image/ecosystem.jpg" alt="Ecosystems" class="w-full rounded-lg mb-4">
+                                <h4 class="text-lg font-semibold mb-2">Ecosystems</h4>
+                                <p>Disruption of habitats and loss of biodiversity.</p>
+                            </li>
+                            <li class="mb-8" data-aos="fade-up" data-aos-delay="300">
+                                <img src="image/ocean.jpg" alt="Oceans" class="w-full rounded-lg mb-4">
+                                <h4 class="text-lg font-semibold mb-2">Oceans</h4>
+                                <p>Ocean acidification and coral bleaching.</p>
+                            </li>
+                            <li class="mb-8" data-aos="fade-up" data-aos-delay="400">
+                                <img src="image/weather-pattern.png" alt="Weather Patterns" class="w-full rounded-lg mb-4">
+                                <h4 class="text-lg font-semibold mb-2">Weather Patterns</h4>
+                                <p>Shifts in precipitation and storm patterns.</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="border rounded-lg p-6 lg:mt-16" data-aos="fade-up" data-aos-delay="500">
+                        <h4 class="text-xl font-semibold mb-4">Economic Impacts</h4>
+                        <ul>
+                            <li class="mb-8" data-aos="fade-up" data-aos-delay="600">
+                                <img src="image/agriculture.jpg" alt="Agriculture" class="w-full rounded-lg mb-4">
+                                <h4 class="text-lg font-semibold mb-2">Agriculture</h4>
+                                <p>Changes in crop yields and food security.</p>
+                            </li>
+                            <li class="mb-8" data-aos="fade-up" data-aos-delay="700">
+                                <img src="image/infrastructure.jpg" alt="Infrastructure" class="w-full rounded-lg mb-4">
+                                <h4 class="text-lg font-semibold mb-2">Infrastructure</h4>
+                                <p>Damage to infrastructure from extreme weather.</p>
+                            </li>
+                            <li class="mb-8" data-aos="fade-up" data-aos-delay="800">
+                                <img src="image/health_risks.webp" alt="Health Risks" class="w-full rounded-lg mb-4">
+                                <h4 class="text-lg font-semibold mb-2">Health Risks</h4>
+                                <p>Increased health risks from heatwaves and disease spread.</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="border rounded-lg p-6 lg:mt-32" data-aos="fade-up" data-aos-delay="900">
+                        <h4 class="text-xl font-semibold mb-4">Social Impacts</h4>
+                        <ul>
+                            <li class="mb-8" data-aos="fade-up" data-aos-delay="1000">
+                                <img src="image/migration.jpg" alt="Migration" class="w-full rounded-lg mb-4">
+                                <h4 class="text-lg font-semibold mb-2">Migration</h4>
+                                <p>Climate refugees and displacement.</p>
+                            </li>
+                            <li class="mb-8" data-aos="fade-up" data-aos-delay="1100">
+                                <img src="image/equity.png" alt="Equity" class="w-full rounded-lg mb-4">
+                                <h4 class="text-lg font-semibold mb-2">Equity</h4>
+                                <p>Disproportionate impacts on vulnerable communities.</p>
+                            </li>
+                            <li class="mb-8" data-aos="fade-up" data-aos-delay="1200">
+                                <img src="image/conflict.jpg" alt="Conflict" class="w-full rounded-lg mb-4">
+                                <h4 class="text-lg font-semibold mb-2">Conflict</h4>
+                                <p>Resource scarcity leading to potential conflicts.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section id="actions" class="py-12" data-aos="fade-up">
+            <div class="max-w-4xl mx-auto px-4">
+                <h2 class="text-3xl font-semibold mb-8">Taking Action</h2>
+                
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+                    <div class="actions-list border rounded-lg p-6 flex flex-col" data-aos="fade-up">
+                        <h3 class="text-xl font-semibold mb-4">Mitigation Strategies</h3>
+                        <ul class="">
+                            <li class="flex flex-col items-center mb-4">
+                                <div class="aspect-w-1 aspect-h-1 w-full mb-2">
+                                    <img src="image/energy.jpg" alt="Renewable Energy" class="object-cover w-full h-full block">
+                                </div>
+                                <div>
+                                    <h4 class="text-lg font-semibold mb-2">Renewable Energy</h4>
+                                    <p>Transitioning to solar, wind, and other renewable energy sources.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    
+                    <div class=" actions-list border rounded-lg p-6 flex flex-col" data-aos="fade-up">
+                        <h3 class="text-xl font-semibold mb-4">Adaptation Strategies</h3>
+                        <ul>
+                            <li class="flex flex-col items-center mb-4">
+                                <div class="aspect-w-1 aspect-h-1 w-full mb-2">
+                                    <img src="image/strong-building.jpg" alt="Resilient Infrastructure" class="object-cover w-full h-full block">
+                                </div>
+                                <div>
+                                    <h4 class="text-lg font-semibold mb-2">Resilient Infrastructure</h4>
+                                    <p>Building infrastructure to withstand extreme weather.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        
+                <div class="actions-list border rounded-lg p-6 mt-8 flex flex-col" data-aos="fade-up">
+                    <h3 class="text-xl font-semibold mb-4">Individual Actions</h3>
+                    <ul>
+                        <li class="flex flex-col items-center mb-4">
+                            <div class="aspect-w-1 aspect-h-1 w-full mb-2">
+                                <img src="image/reduce_reuse_recycle.jpg" alt="Reduce, Reuse, Recycle" class="object-cover w-full h-full block">
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-semibold mb-2">Reduce, Reuse, Recycle</h4>
+                                <p>Minimizing waste and promoting sustainable consumption.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    
+  <aside class="fixed left-1/2 transform -translate-x-1/2 text-sm bottom-0 bg-green-600 text-white rounded-t-xl z-50">
+    <ul class="flex p-4 justify-evenly min-w-[320px] gap-4">
+        <li>
+            <a class="relative nav-button flex flex-col text-center" href="#about">
+                <i class="text-xl fas fa-info-circle"></i>
+                <span class="hidden  bg-green-500">About</span>
+            </a>
+        </li>
+        <li>
+            <a class="relative nav-button flex flex-col text-center" href="#history">
+                <i class="text-xl fas fa-history"></i>
+                <span class="hidden  bg-green-500">History</span>
+            </a>
+        </li>
+        <li>
+            <a class="relative nav-button flex flex-col text-center" href="#impact">
+                <i class="text-xl fas fa-exclamation-triangle"></i>
+                <span class="hidden  bg-green-500">Impacts</span>
+            </a>
+        </li>
+        <li>
+            <a class="relative nav-button flex flex-col text-center" href="#actions">
+                <i class="text-xl fas fa-hand-holding-heart"></i>
+                <span class="hidden bg-green-500">Action</span>
+            </a>
+        </li>
+    </ul>
+</aside>
+
+    <footer>
+        <div class="max-w-[1000px] mx-auto px-4 py-16">
+            <p class="text-center text-gray-600">Copyright © 2024 ClimateWise. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
 
